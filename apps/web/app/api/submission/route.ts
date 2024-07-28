@@ -8,7 +8,7 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "../../lib/auth";
 import { rateLimit } from "../../lib/rateLimit";
 
-const JUDGE0_URI = process.env.JUDGE0_URI || "https://judge.100xdevs.com";
+const JUDGE0_URI = process.env.JUDGE0_URI ;
 
 const SECRET_KEY = process.env.CLOUDFLARE_TURNSTILE_SECRET_KEY!;
 const CLOUDFLARE_TURNSTILE_URL =
