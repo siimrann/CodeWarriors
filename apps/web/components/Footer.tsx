@@ -1,10 +1,10 @@
 ""
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
-import { SiInstagram, SiYoutube, SiX } from "@icons-pack/react-simple-icons";
+import { SiInstagram, SiX, SiYoutube } from "@icons-pack/react-simple-icons";
 import Image from "next/image";
-import playstore from "../public/playstore.png";
+import Link from "next/link";
 import Logo from "../public/logo.png";
+import playstore from "../public/playstore.png";
 
 export const Footer = () => {
   return (
@@ -55,13 +55,13 @@ export const Footer = () => {
           <div>
             <h4 className="text-neutral-200 font-semibold mb-2">Follow us</h4>
             <div className="flex gap-x-2">
-              <Link target="_blank" rel="noopener noreferrer" href={"https://twitter.com/kushagrasaxena061"}>
+              <Link target="_blank" rel="noopener noreferrer" href={"https://x.com/siim_ran"}>
                 <SiX className="text-white hover:text-blue-500" />
               </Link>
-              <Link target="_blank" rel="noopener noreferrer" href={"https://www.instagram.com/kushagrasaxena061"}>
+              <Link target="_blank" rel="noopener noreferrer" href={"https://www.instagram.com/simran23"}>
                 <SiInstagram className="text-white hover:text-blue-500" />
               </Link>
-              <Link target="_blank" rel="noopener noreferrer" href={"https://www.youtube.com/@kushagrasaxena061"}>
+              <Link target="_blank" rel="noopener noreferrer" href={"https://www.youtube.com/@simran23"}>
                 <SiYoutube className="text-white hover:text-blue-500" />
               </Link>
             </div>
